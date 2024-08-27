@@ -17,7 +17,7 @@ if [ ! -d "$output_dir" ]; then
 fi
 
 # Nəticələrin yazılacağı CSV faylı
-result_csv="result.csv"
+result_csv=".result.csv"
 
 # Əvvəlki nəticələri təmizləyir
 > "$result_csv"
